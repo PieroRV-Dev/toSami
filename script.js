@@ -7,8 +7,9 @@ onload = () => {
       document.body.classList.remove("not-loaded");
       clearTimeout(c);
       const palabras = ["Hola Sami :D", 
+                        "Porfavor sino suena la musiquita porfa dale play XD",
       "Esto es detallito para ti <3", 
-      "Porfavor sino suena la musiquita porfa dale play XD",
+      
       "Espero que te guste.",
       "Una flor para otra flor :)",
       "Sé que siempre quisiste flores",
