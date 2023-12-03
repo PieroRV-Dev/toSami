@@ -1,4 +1,6 @@
 
+
+
 onload = () => {
     const c = setTimeout(() => {
 
@@ -6,12 +8,22 @@ onload = () => {
       clearTimeout(c);
       const palabras = ["Hola Sami :D", 
       "Esto es detallito para ti <3", 
+      "Espero que te guste.",
+      "Porfavor sino suena la musiquita dale play XD",
+      "Fallas tecnicas",
+      "Una flor para otra flor :)",
+      "Yo vi esta flor y pense en ti porque es bonita.",
+      "Bueno en realidad a mi no me gusta.",
+      "Pero creí que te gustaría porque tu si eres bonita.",
       "Quiero decirte que eres los mas especial para mí.", 
       "No me gusta verte triste por eso intento alegrarte el día",
       "Solo quiero que confíes y que puedo hacerte feliz!!!",
       "Eres mi gordita preciosa, mi princesa.",
       "Y aun asi si eres un pollito te seguiria amando.",
-      "Confio en ti y se que puedes lograr todo lo que te propongas",
+      "Ntp, que no importe lo que pase estare a tu lado.",
+      "Solo quiero dormit a tu lado todas las noches.",
+      "Estar abrazados tu y yo solos hasta que se acabe el tiempo.",
+      "Confio en ti y se que puedes lograr todas tus metas.",
       "Suerte en tu exposición"];
 
       const elementoCentro = document.getElementById("centro");
