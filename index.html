@@ -22,7 +22,7 @@
           left: 50%;
           transform: translate(-50%,-50%);
           text-align: center;
-          font-size: 24px;
+          font-size: 15px;
           opacity: 0;
           animation: fade 9s ease-out forwards;
         }
@@ -34,7 +34,7 @@
             width: 100%;
             height: 100vh; /* 100% de la altura de la ventana */
             background: none;
-            z-index: 9999; /* Asegura que el div esté en la parte superior */
+            z-index: 99; /* Asegura que el div esté en la parte superior */
         }
         
         @keyframes fade{
@@ -51,13 +51,14 @@
 
 <body class="not-loaded">
     <div id="divSuperpuesto" style="display: flex; align-items: center; justify-content: center;">
-        <h1 id="centro" style="display: flex;z-index: 99999999; color:white; font-size: 5rem;"></h1>      </div>
-      
+        <h1 id="centro" style="display: flex;z-index: 99999999; color:white; font-size: 5rem;"></h1>    
+        <audio id="audio" style="z-index: 100; position: absolute; top: 0;" autoplay controls volume="0.6">
+          <source src="Y2meta.app - Flowers - Christian Basso ft. Haien Qiu (Letra Sub. Español) __ No Se Aceptan Devoluciones (128 kbps).mp3" type="audio/mp3">
+        </audio>
+    </div>
+    
     <div class="night"  >
-      <audio controls autoplay loop style="display: none">
-        <source src="Y2meta.app - Flowers - Christian Basso ft. Haien Qiu (Letra Sub. Español) __ No Se Aceptan Devoluciones (128 kbps).mp3" type="audio/mp3">
-      </audio>
-     
+      
 
     </div>
 
