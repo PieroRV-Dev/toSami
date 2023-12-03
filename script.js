@@ -5,11 +5,14 @@ onload = () => {
       document.body.classList.remove("not-loaded");
       clearTimeout(c);
       const palabras = ["Hola Sami :D", 
-      "Esto es para ti <3", 
-      "No quiero que te sientas ni desanimada ni triste",
-      "Yo siempre voy estar a tu lado apoyandote",
-      "Confio en ti, y eres capaz de realizar cualquier cosa",
-      "Tu sonrisa ilumina mi día, y por eso eres especial para mí."];
+      "Esto es detallito para ti <3", 
+      "Quiero decirte que eres los mas especial para mí.", 
+      "No me gusta verte triste por eso intento alegrarte el día",
+      "Solo quiero que confíes y que puedo hacerte feliz!!!",
+      "Eres mi gordita preciosa, mi princesa.",
+      "Y aun asi si eres un pollito te seguiria amando.",
+      "Confio en ti y se que puedes lograr todo lo que te propongas",
+      "Suerte en tu exposición"];
 
       const elementoCentro = document.getElementById("centro");
       let indicePalabra = 0;
