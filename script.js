@@ -11,7 +11,7 @@ onload = () => {
       "Porfavor sino suena la musiquita porfa dale play XD",
       "Espero que te guste.",
       "Una flor para otra flor :)",
-      "Se que siempre quisiste flores",
+      "Sé que siempre quisiste flores",
       "Pero...",
       "Yo vi esta flor y pense en ti porque es bonita.",
       "Bueno en realidad a mi no me gusta.",
