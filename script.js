@@ -20,7 +20,7 @@ onload = () => {
       "No me gusta verte triste por eso intento alegrarte el día",
       "Solo quiero que confíes y que puedo hacerte feliz!!!",
       "Eres mi gordita preciosa y mi princesa.",
-      "Y aun asi seas eres un pollito gordito te seguiria amando.",
+      "Y aun asi fueses un pollito gordito te seguiria amando.",
       "Ntp, que no importe lo que pase siempre estare a tu lado.",
       "Solo quiero dormir a tu lado todas las noches.",
       "Estar abrazados tu y yo solos hasta que se acabe el tiempo.",
