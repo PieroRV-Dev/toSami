@@ -17,6 +17,11 @@ onload = () => {
       // Función para cambiar la palabra cada 10 segundos y reiniciar el audio
       function cambiarPalabra() {
         elementoCentro.textContent = palabras[indicePalabra];
+        
+        elementoCentro.style.animation='none'
+        void elementoCentro.offsetWidth
+        elementoCentro.style.animation = null
+        elementoCentro.style.animation = 'fade 9s ease-out forwards' 
 
         indicePalabra = (indicePalabra + 1) % palabras.length;
 
@@ -24,7 +29,7 @@ onload = () => {
       // Cambiar la palabra inicialmente y establecer el intervalo
       cambiarPalabra();
     
-      setInterval(cambiarPalabra, 6000);
+      setInterval(cambiarPalabra, 9000);
     }, 1000);
   };
   
